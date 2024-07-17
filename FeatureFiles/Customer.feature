@@ -32,7 +32,6 @@ When click alert ok button with "xpath" and "(//button[contains(text(),'OK')])[6
 When Validate Customer table
 When Click logout link with "xpath" and "(//a[starts-with(text(),' Logout')])[2]"
 When close application browser
-When user click supplier link
 Examples:
 |CustomerName|Address|City|Country|contactperson|phoneNumber|Email|Mobilenumber|Notes|
 |Akhilesh1|Ameerpet5|SrNagar67|India|QedgeTech|6547895412	|Test@gmail.com|5412365478|New Customer1|

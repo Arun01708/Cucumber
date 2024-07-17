@@ -7,7 +7,7 @@ import io.cucumber.junit.CucumberOptions;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = {"FeatureFiles"},glue = {"stepDefination"})
+@CucumberOptions(features = {"FeatureFiles"},glue = {"stepDefination"},plugin= {"pretty","html:target/cucumber/report.html"})
 public class Runner {
 
 }
